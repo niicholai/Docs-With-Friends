@@ -19,6 +19,3 @@ Whether you are here to fix your Obsidian setup, optimize a build, or figure out
 Everything is linked. You can browse the folders using the **Explorer** on the left, or just use the **Search Bar** to jump straight to what you need.
 
 > *“Knowledge is better when it's shared.”*
-
----
-*Created with ❤️ for friends of House Black.*
