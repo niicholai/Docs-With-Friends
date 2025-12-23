@@ -99,3 +99,30 @@ hr::after {
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
   color: #fff !important;
 }
+
+/* --- 1. KEEP PARAGRAPHS NORMAL --- */
+p {
+  line-height: 1.6 !important;    /* Standard comfortable reading height */
+  margin-bottom: 1rem !important; /* Standard "Single Space" gap between paragraphs */
+}
+
+/* --- 2. HUGE GAPS FOR HEADERS (The "New Page" Feel) --- */
+h1 {
+  margin-bottom: 4rem !important; /* Huge empty space after the Main Title */
+}
+
+h2, h3, h4 {
+  margin-top: 5rem !important;    /* Massive gap BEFORE a header (pushes old text away) */
+  margin-bottom: 2rem !important; /* Double-wide gap AFTER a header (before text starts) */
+}
+
+/* --- 3. HUGE GAPS FOR DIVIDERS --- */
+hr {
+  margin: 5rem 0 !important;      /* Massive gap around the Star/Line break */
+  /* Keep your existing border/star settings here */
+}
+
+/* --- 4. LISTS (Keep them tight) --- */
+ul, ol {
+  margin-bottom: 1rem !important; /* Match paragraph spacing */
+}
