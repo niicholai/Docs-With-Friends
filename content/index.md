@@ -21,5 +21,6 @@ Whether you are here to fix your Obsidian setup, optimize a build, or figure out
 ### How to use this site
 
 Everything is linked. You can browse the folders using the **Explorer** on the left, or just use the **Search Bar** to jump straight to what you need.
-
+<br>
+<br>
 > *“Knowledge is better when it's shared.”*

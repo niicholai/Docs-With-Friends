@@ -107,22 +107,57 @@ p {
 }
 
 /* --- 2. HUGE GAPS FOR HEADERS (The "New Page" Feel) --- */
+
+/* A. The Main Page Title (Docs With Friends) */
+/* Keep this tight so the Date/Time sits right underneath it */
+.article-title {
+  margin-bottom: 0.5rem !important; 
+}
+
+/* B. The Metadata (Date & Read Time) */
+/* THIS is where we put the huge gap to push the content away */
+.content-meta {
+  margin-top: 0 !important;       /* Pulls it up closer to the title */
+  margin-bottom: 3rem !important; /* The massive gap before "Welcome to the Archive" starts */
+
+  /* --- NEW: The Divider Line --- */
+  border-bottom: 1px solid var(--lightgray) !important; /* The subtle separator line */
+  padding-bottom: 1.5rem !important; /* Adds space between the date and the line */
+  display: block !important;      /* Ensures the line stretches across the page */
+}
+
+/* C. Standard H1s inside your text */
+/* If you use # Header in your writing, keep the big spacing */
 h1 {
-  margin-bottom: 4rem !important; /* Huge empty space after the Main Title */
+  margin-bottom: 2rem !important; /* Huge empty space after the Main Title */
 }
 
 h2, h3, h4 {
-  margin-top: 5rem !important;    /* Massive gap BEFORE a header (pushes old text away) */
-  margin-bottom: 3rem !important; /* Double-wide gap AFTER a header (before text starts) */
+  margin-top: 1rem !important;    /* Massive gap BEFORE a header (pushes old text away) */
+  margin-bottom: 2rem !important; /* Double-wide gap AFTER a header (before text starts) */
 }
 
 /* --- 3. HUGE GAPS FOR DIVIDERS --- */
 hr {
-  margin: 5rem 0 !important;      /* Massive gap around the Star/Line break */
+  margin: 3rem 0 !important;      /* Massive gap around the Star/Line break */
   /* Keep your existing border/star settings here */
 }
 
 /* --- 4. LISTS (Keep them tight) --- */
 ul, ol {
   margin-bottom: 1rem !important; /* Match paragraph spacing */
+}
+
+/* --- 5. LIST ITEMS (The Fix) --- */
+
+/* Rule A: Main Content Lists (The "Airy" look you want) */
+article li {
+  margin-bottom: 0.4rem !important; /* Pushes the next bullet point away */
+  line-height: 1.6 !important;      /* Makes the text inside readable again */
+}
+
+/* Rule B: Sidebar/Explorer Lists (Keep them compact) */
+.sidebar li, .explorer li {
+  margin-bottom: 0rem !important; /* Tiny gap for the menu */
+  line-height: 1.4 !important;      /* Tighter text for navigation */
 }
