@@ -103,7 +103,7 @@ hr::after {
 /* --- 1. KEEP PARAGRAPHS NORMAL --- */
 p {
   line-height: 1.6 !important;    /* Standard comfortable reading height */
-  margin-bottom: 1rem !important; /* Standard "Single Space" gap between paragraphs */
+  margin-bottom: 1.3rem !important; /* Standard "Single Space" gap between paragraphs */
 }
 
 /* --- 2. HUGE GAPS FOR HEADERS (The "New Page" Feel) --- */
@@ -113,7 +113,7 @@ h1 {
 
 h2, h3, h4 {
   margin-top: 5rem !important;    /* Massive gap BEFORE a header (pushes old text away) */
-  margin-bottom: 2rem !important; /* Double-wide gap AFTER a header (before text starts) */
+  margin-bottom: 3rem !important; /* Double-wide gap AFTER a header (before text starts) */
 }
 
 /* --- 3. HUGE GAPS FOR DIVIDERS --- */
